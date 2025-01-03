@@ -1,0 +1,97 @@
+/* Reset untuk elemen dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tampilan umum */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+/* Gaya untuk galeri gambar */
+.gallery {
+    margin-bottom: 30px;
+}
+
+.gallery .images {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.gallery-image {
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+}
+
+/* Gaya untuk detail kios */
+.details ul {
+    list-style-type: none;
+}
+
+.details li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.details li a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.details li a:hover {
+    text-decoration: underline;
+}
+
+/* Gaya untuk tombol kontak */
+.contact {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}

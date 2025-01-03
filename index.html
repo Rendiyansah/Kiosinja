@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Web Design Mastery | Wanderlust</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__logo"><a href="#">KiosinAja</a></div>
+        <ul class="nav__links">
+          <li class="link"><a href="#home">Home</a></li>
+          <li class="link"><a href="#trending">Kios Terdekat</a></li>
+          <li class="link"><a href="#destination">Daerah Ramai</a></li>
+          
+          <li class="link"><a href="#client">Client</a></li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <h1>Temukan Kios yang Anda Inginkan</h1>
+        <div class="header__form">
+          <form action="/">
+            <div class="input__group">
+              <label for="destination">Cari daerah kios</label>
+              <input type="text" placeholder="Nama Daerah,kios" />
+            </div>
+            <div class="input__group">
+              <label for="checkIn">Mulai Sewa</label>
+              <input type="text" placeholder="Choose a date" />
+            </div>
+            <div class="input__group">
+              <label for="CheckOut">Akhir Sewa</label>
+              <input type="text" placeholder="Choose a date" />
+            </div>
+            
+            <button class="btn">CHECK AVAILABILITY</button>
+          </form>
+        </div>
+      </div>
+    </header>
+    <section class="section__container trending__container" id="trending">
+      <div class="section__header">
+        <h2 class="section__title">Kios Terdekat Anda</h2>
+        <div class="section__nav">
+          <span><i class="ri-arrow-left-s-line"></i></span>
+          <span><i class="ri-arrow-right-s-line"></i></span>
+        </div>
+      </div>
+      <div class="trending__grid">
+        <div class="trending__card">
+          <img src="assets/kios1.jpeg" alt="trending" />
+          <h1>Kios Bang Mamat</h1>
+          <p>Penyewaan murah di jakarta pusat</p>
+          <p>Lebar      : 3m</p>
+          <p>panjang    : 3m</p>
+          <p>Luas       : 9m</p>
+          <div class="trending__details">
+            <div class="price">
+              <p>From</p>
+              <h3>Rp.24.000.000/Tahun</h3>
+              <p>*Price varies</p>
+            </div>
+            <div class="trending__ratings">
+              <div>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-half-fill"></i></span>
+                <span><i class="ri-star-line"></i></span>
+              </div>
+              <p>4.8 (10)</p>
+            </div>
+          </div>
+          <h5>
+            <span><i class="ri-time-line"></i></span> Per Tahun
+          </h5>
+          <p>
+            <span><i class="ri-check-line"></i></span> Free Cancellation
+          </p>
+          <a href="detailkios.html">
+            <button class="btn">Detail Kios</button>
+          </a>
+          
+        </div>
+        <div class="trending__card">
+          <img src="assets/kios2.jpeg" alt="trending" />
+          <h1>Train Tour Skyline</h1>
+          <p>Penyewaan murah di jakarta pusat</p>
+          <p>Lebar      : 3m</p>
+          <p>panjang    : 3m</p>
+          <p>Luas       : 9m</p>
+          <div class="trending__details">
+            <div class="price">
+              <p>From</p>
+              <h3>Rp.24.000.000/Tahun</h3>
+              <p>*Price varies</p>
+            </div>
+            <div class="trending__ratings">
+              <div>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-half-fill"></i></span>
+                <span><i class="ri-star-line"></i></span>
+              </div>
+              <p>4.2 (25)</p>
+            </div>
+          </div>
+          <h5>
+            <span><i class="ri-time-line"></i></span> Per Tahun
+          </h5>
+          <p>
+            <span><i class="ri-check-line"></i></span> Free Cancellation
+          </p>
+          <a href="detailkios.html">
+            <button class="btn">Detail Kios</button>
+          </a>
+        </div>
+        <div class="trending__card">
+          <img src="assets/kios3.jpeg" alt="trending" />
+          <h1>Kios Cempaka putih</h1>
+          <p>Penyewaan murah di jakarta pusat</p>
+          <p>Lebar      : 3m</p>
+          <p>panjang    : 3m</p>
+          <p>Luas       : 9m</p>
+          <div class="trending__details">
+            <div class="price">
+              <p>From</p>
+              <h3>Rp.2.000.000/Bulan</h3>
+              <p>*Price varies</p>
+            </div>
+            <div class="trending__ratings">
+              <div>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-half-fill"></i></span>
+                <span><i class="ri-star-line"></i></span>
+              </div>
+              <p>4.5 (15)</p>
+            </div>
+          </div>
+          <h5>
+            <span><i class="ri-time-line"></i></span> Per Bulan
+          </h5>
+          <p>
+            <span><i class="ri-check-line"></i></span> Free Cancellation
+          </p>
+          <a href="detailkios.html">
+            <button class="btn">Detail Kios</button>
+          </a>
+        </div>
+      </div>
+      <div class="trending__grid">
+        <div class="trending__card">
+          <img src="assets/kios1.jpeg" alt="trending" />
+          <h1>Kios Bang Mamat</h1>
+          <p>Penyewaan murah di jakarta pusat</p>
+          <p>Lebar      : 3m</p>
+          <p>panjang    : 3m</p>
+          <p>Luas       : 9m</p>
+          <div class="trending__details">
+            <div class="price">
+              <p>From</p>
+              <h3>Rp.24.000.000/Tahun</h3>
+              <p>*Price varies</p>
+            </div>
+            <div class="trending__ratings">
+              <div>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-half-fill"></i></span>
+                <span><i class="ri-star-line"></i></span>
+              </div>
+              <p>4.8 (10)</p>
+            </div>
+          </div>
+          <h5>
+            <span><i class="ri-time-line"></i></span> Per Tahun
+          </h5>
+          <p>
+            <span><i class="ri-check-line"></i></span> Free Cancellation
+          </p>
+          <a href="detailkios.html">
+            <button class="btn">Detail Kios</button>
+          </a>
+        </div>
+        <div class="trending__card">
+          <img src="assets/kios2.jpeg" alt="trending" />
+          <h1>Train Tour Skyline</h1>
+          <p>Penyewaan murah di jakarta pusat</p>
+          <p>Lebar      : 3m</p>
+          <p>panjang    : 3m</p>
+          <p>Luas       : 9m</p>
+          <div class="trending__details">
+            <div class="price">
+              <p>From</p>
+              <h3>Rp.24.000.000/Tahun</h3>
+              <p>*Price varies</p>
+            </div>
+            <div class="trending__ratings">
+              <div>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-half-fill"></i></span>
+                <span><i class="ri-star-line"></i></span>
+              </div>
+              <p>4.2 (25)</p>
+            </div>
+          </div>
+          <h5>
+            <span><i class="ri-time-line"></i></span> Per Tahun
+          </h5>
+          <p>
+            <span><i class="ri-check-line"></i></span> Free Cancellation
+          </p>
+          <a href="detailkios.html">
+            <button class="btn">Detail Kios</button>
+          </a>
+        </div>
+        <div class="trending__card">
+          <img src="assets/kios3.jpeg" alt="trending" />
+          <h1>Kios Cempaka putih</h1>
+          <p>Penyewaan murah di jakarta pusat</p>
+          <p>Lebar      : 3m</p>
+          <p>panjang    : 3m</p>
+          <p>Luas       : 9m</p>
+          <div class="trending__details">
+            <div class="price">
+              <p>From</p>
+              <h3>Rp.2.000.000/Bulan</h3>
+              <p>*Price varies</p>
+            </div>
+            <div class="trending__ratings">
+              <div>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-half-fill"></i></span>
+                <span><i class="ri-star-line"></i></span>
+              </div>
+              <p>4.5 (15)</p>
+            </div>
+          </div>
+          <h5>
+            <span><i class="ri-time-line"></i></span> Per Bulan
+          </h5>
+          <p>
+            <span><i class="ri-check-line"></i></span> Free Cancellation
+          </p>
+          <a href="detailkios.html">
+            <button class="btn">Detail Kios</button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container destination__container" id="destination">
+      <div class="section__header">
+        <h2 class="section__title">Kios di Daerah Pasar</h2>
+        <div class="section__nav">
+          <span><i class="ri-arrow-left-s-line"></i></span>
+          <span><i class="ri-arrow-right-s-line"></i></span>
+        </div>
+      </div>
+      <div class="destination__grid">
+        <div class="destination__card">
+          <img src="assets/pasarenjo.jpg" alt="destination" />
+          
+          <div class="destination__details">
+            <h4>Pasar Enjo</h4>
+            
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/pasargembrong.jpeg" alt="destination" />
+          <div class="destination__details">
+            <h4>Pasar Gembrong</h4>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/pasarkramatjati.jpg" alt="destination" />
+          <div class="destination__details">
+            <h4>Pasar Induk Kramat Jati</h4>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/pasarsanta.jpeg" alt="destination" />
+          <div class="destination__details">
+            <h4>Pasar Santa</h4>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/pasarjatinegara.jpeg" alt="destination" />
+          <div class="destination__details">
+            <h4>Pasar Jatinegara</h4>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/pasarlama.jpeg" alt="destination" />
+          <div class="badge">4.7</div>
+          <div class="destination__details">
+            <h4>Pasar Lama</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container seller__container" id="seller">
+      <div class="section__header">
+        <h2 class="section__title">Daerah Teramai</h2>
+        <div class="section__btn">
+          <button class="btn">Check All</button>
+        </div>
+      </div>
+      <div class="seller__grid">
+        <div class="seller__card">
+          <div class="seller__image">
+            <img src="assets/jakartapusat.webp" alt="seller" />
+            <div class="seller__image__content">
+              <div class="badge">30%</div>
+              <div class="seller__image__footer">
+                <div class="seller__price">
+                  <p>1.200 kios Terdaftar</p>
+                 
+                </div>
+                <a href="detaildaerah.html">
+                    <button class="btn">Explore</button>
+                </a>
+                
+              </div>
+            </div>
+          </div>
+          <div class="seller__details">
+            <h4>Jakarta Pusat</h4>
+            <p>Embark on a scenic railway adventure with Trains Tour Skyline</p>
+          </div>
+        </div>
+        <div class="seller__card">
+          <div class="seller__image">
+            <img src="assets/jakartabarat.jpeg" alt="seller" />
+            <div class="seller__image__content">
+              <div class="badge">20%</div>
+              <div class="seller__image__footer">
+                <div class="seller__price">
+                  <p>1.030 Kios Terdaftar</p>
+                </div>
+                <a href="detaildaerah.html">
+                    <button class="btn">Explore</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="seller__details">
+            <h4>Jakarta Barat</h4>
+            <p>Where the ocean's beauty meets your soul's serenity</p>
+          </div>
+        </div>
+        <div class="seller__card">
+          <div class="seller__image">
+            <img src="assets/jakartatimur.jpeg" alt="seller" />
+            <div class="seller__image__content">
+              <div class="badge">25%</div>
+              <div class="seller__image__footer">
+                <div class="seller__price">
+                  <p>1.050 Kios Terdaftar</p>
+                </div>
+                <a href="detaildaerah.html">
+                    <button class="btn">Explore</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="seller__details">
+            <h4>Jakarta Timur</h4>
+            <p>Where Tradition Meets Modern Marvels in Every Aisle</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+
+    <section class="section__container client__container" id="client">
+      <div class="section__header">
+        <h2 class="section__title">Clients Feedback</h2>
+        <div class="section__nav">
+          <span><i class="ri-arrow-left-s-line"></i></span>
+          <span><i class="ri-arrow-right-s-line"></i></span>
+        </div>
+      </div>
+      <div class="client__grid">
+        <div class="client__card">
+          <div class="client__card__header">
+            <span><i class="ri-double-quotes-r"></i></span>
+            <div class="ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-half-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+            </div>
+          </div>
+          <p>
+            Setiap kios yang terdaftar di Kiosinaja dilengkapi dengan foto-foto yang jelas dan detail. Ini sangat membantu karena saya bisa mendapatkan gambaran yang lebih nyata sebelum memutuskan untuk mengunjungi kios secara langsung. Saya bisa melihat kondisi fisik kios, serta memeriksa berbagai informasi terkait, seperti harga sewa, nomor telepon pemilik, dan lain-lain.
+          </p>
+          <div class="client__card__footer">
+            <img src="assets/person.jpeg" alt="client" />
+            <div class="client__details">
+              <h4>Mike Henderson</h4>
+              <p>Business Manager & CEO</p>
+            </div>
+          </div>
+        </div>
+        <div class="client__card">
+          <div class="client__card__header">
+            <span><i class="ri-double-quotes-r"></i></span>
+            <div class="ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+            </div>
+          </div>
+          <p>
+            Saat pertama kali mengunjungi Kiosinaja, saya langsung merasa nyaman. Tampilan website yang bersih, modern, dan mudah dinavigasi membuat pencarian kios sangat menyenangkan. Tidak perlu bingung, semua informasi yang saya butuhkan tersedia dengan jelas.
+          </p>
+          <div class="client__card__footer">
+            <img src="assets/person.jpeg" alt="client" />
+            <div class="client__details">
+              <h4>Paul Harrison</h4>
+              <p>Director</p>
+            </div>
+          </div>
+        </div>
+        <div class="client__card">
+          <div class="client__card__header">
+            <span><i class="ri-double-quotes-r"></i></span>
+            <div class="ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+            </div>
+          </div>
+          <p>
+            Fitur pencarian di Kiosinaja sangat membantu. Saya bisa mencari kios berdasarkan lokasi, harga sewa, ukuran, dan bahkan fasilitas yang tersedia. Fitur filter ini sangat berguna, karena saya bisa langsung menemukan kios yang sesuai dengan budget dan kebutuhan usaha saya.
+          </p>
+          <div class="client__card__footer">
+            <img src="assets/person.jpeg" alt="client" />
+            <div class="client__details">
+              <h4>John Williams</h4>
+              <p>Content Writer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h5>KiosinAja</h5>
+          <p>
+            Selamat Datang Di KiosinaAja Website kami diciptakan agar memudahkan anda dalam melakukan pencarian kios untuk membuka usaha anda. Kami menampilkan kios kios yang sudah terklasifikasi dan sudah bekerjasama dengan kami.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <a href="#home">Home</a>
+          <a href="#destination">Kios Di Daerah Pasar</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+        
+        <div class="footer__col">
+          <h4>Follow Us</h4>
+          <div class="footer__socials">
+            <span>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </span>
+            <span>
+              <a href="#"><i class="ri-linkedin-fill"></i></a>
+            </span>
+            <span>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </span>
+            <span>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2023 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
