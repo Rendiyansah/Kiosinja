@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Kios</title>
+    <link rel="stylesheet" href="detail.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <header class="header">
+      <nav>
+        <div class="nav__logo"><a href="#">KiosinAja</a></div>
+        <ul class="nav__links">
+          <li class="link"><a href="index.html">Home</a></li>
+          <li class="link"><a href="index.html">Kios Terdekat</a></li>
+          <li class="link"><a href="index.html">Daerah Ramai</a></li>
+          
+          <li class="link"><a href="index.html">Client</a></li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <h1>Temukan Kios di Daerah Jakarta Pusat Yang Anda Inginkan</h1>
+        <div class="header__form">
+          <form action="/">
+            <div class="input__group">
+              <label for="destination">Cari daerah kios</label>
+              <input type="text" placeholder="Nama Daerah,kios" />
+            </div>
+            <div class="input__group">
+              <label for="checkIn">Mulai Sewa</label>
+              <input type="text" placeholder="Choose a date" />
+            </div>
+            <div class="input__group">
+              <label for="CheckOut">Akhir Sewa</label>
+              <input type="text" placeholder="Choose a date" />
+            </div>
+            
+            <button class="btn">CHECK AVAILABILITY</button>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+        <header>
+            <h1>Detail Kios</h1>
+        </header>
+
+        <section class="gallery">
+            <h2>Foto Kios</h2>
+            <div class="images">
+                <img src="assets/kios1.jpeg" alt="Foto Kios 1" class="gallery-image">
+                <img src="assets/kios2.jpeg" alt="Foto Kios 2" class="gallery-image">
+                <img src="assets/kios5.jpeg" alt="Foto Kios 3" class="gallery-image">
+            </div>
+        </section>
+
+        <section class="details">
+            <h2>Informasi Kios</h2>
+            <ul>
+                <li><strong>Nama Pemilik:</strong> John Doe</li>
+                <li><strong>Nomor Telepon:</strong> <a href="tel:+628123456789">+62 812 3456 789</a></li>
+                <li><strong>Luas Kios:</strong> 25 m²</li>
+                <li><strong>Harga Sewa:</strong> Rp 5.000.000/bulan</li>
+                <li><strong>Alamat:</strong> Jl. Sudirman No. 45, Jakarta</li>
+            </ul>
+        </section>
+
+        
+
+        <section class="contact">
+            <button onclick="contactOwner()">Hubungi Pemilik</button>
+            <a href="https://www.google.com/maps/place/KIOS+BAROKAH/@-6.203875,106.7628716,15z/data=!4m10!1m2!2m1!1skios!3m6!1s0x2e69f7985fc59ced:0xaf43650e6de3d95a!8m2!3d-6.203875!4d106.781926!15sCgRraW9zWgYiBGtpb3OSAQ5jbG90aGluZ19zdG9yZeABAA!16s%2Fg%2F11mc6zz4p_?entry=ttu&g_ep=EgoyMDI1MDEwMS4wIKXMDSoJLDEwMjExMjM0SAFQAw%3D%3D">
+                <button class="btn">Alamat kios</button>
+            </a>
+        </section>
+        
+    </div>
+
+    <script src="detail.js"></script>
+</body>
+</html>
